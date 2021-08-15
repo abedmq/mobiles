@@ -1,0 +1,21 @@
+.row-actions {
+    font-size: 10px;
+    font-weight: 0;
+    visibility: hidden;
+}
+.row-actions a {
+    margin-left: 3px;
+}
+.element .title {
+    direction: rtl;
+}
+
+table td  {
+    vertical-align: top !important;
+}
+table td span.title {
+    font-weight: 700;
+}
+td:hover  .row-actions {
+    visibility: visible;
+}
